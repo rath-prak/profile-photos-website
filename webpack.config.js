@@ -30,7 +30,7 @@ module.exports = {
         use: 'babel-loader'
       },
       {
-        test: /\.jpg$/,
+        test: /\.(jpe?g|png|gif|svg)$/i,
         exclude: /node_modules/,
         use: 'file-loader'
       }

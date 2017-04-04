@@ -1,5 +1,3 @@
-body {
-  background: url('./assets/img/gracie-hero.jpg') no-repeat center center fixed;
-  font-family: sans-serif;
-  color: #fff;
-}
+@import './scss/vendors/reset';
+@import './scss/layout/landing';
+@import './scss/layout/header'
