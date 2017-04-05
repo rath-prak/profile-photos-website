@@ -5,28 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to ProfilePhotos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
+    <!-- NAVIGATION -->
     <nav class="navbar navbar-fixed-top">
 
       <button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navigation">
         &#9776;
       </button>
 
-        <a href="#" class="main-logo img-fulid navbar-brand">
-          <img style="width:200px" src=<%=require("./images/logo_black.png") %> />
-        </a>
+      <a href="#" class="main-logo img-fulid navbar-brand">
+        <img src=<%=require("./images/logo_white.png") %> />
+      </a>
 
       <div class="collapse navbar-toggleable-xs" id="navigation">
         <ul class="nav navbar-nav float-sm-right">
           <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
           <li class="nav-item"><a href="#" class="nav-link">gallery</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">book</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">packages</a></li>
+          <li class="nav-item"><a href="#" class="nav-link social instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link social"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link social"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         </ul>
       </div>
+
     </nav>
+
+    <!-- HEADER -->
+    <section id="header">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Wellington portrait photograhy</h1>
+            <p>Woolf Photography are passionate about the work they do. They strive to capture moments in time that last a lifetime and are dedicated to providing exceptional photographic experiences.</p>
+            <button class="btn solid">packages</button>
+            <button class="btn outline">make a booking</button>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-md-12 text-xs-center">
+            <a href="down to next section"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          </div>
+        </div> -->
+      </div>
+
+    </section>
+
+    <section id="about">
+        <div class="container">
+          <div class="col-md-12 text-xs-center">
+            <h1>Where innovation and experience meet</h1>
+            <p>
+              In 1934 Spencer Digby established what was to become one of New Zealand’s leading studios.The business was sold to the Woolf family in 1960, and it thrived under the direction of Ronald and Inge Woolf. Now, Simon Woolf carries on the family legacy supported by a highly trained team of professionals.
+            </p>
+          </div>
+        </div>
+    </section>
 
   </body>
 </html>

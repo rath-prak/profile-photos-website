@@ -1,0 +1,35 @@
+.main-logo {
+  margin-left: .75rem;
+}
+
+.main-logo img {
+  width: 10rem;
+}
+
+.navbar .nav-link,.navbar .navbar-toggler {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: teal;
+}
+
+.navbar .nav-link:last-child {
+  margin-right: .7rem;
+}
+
+#header {
+  height: 100vh;
+  background: url(images/gracie-hero.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#about,#header {
+  display: flex;
+  align-items: center;
+}
+
+#about {
+  min-height: 50vh;
+  background: #d3d3d3;
+}

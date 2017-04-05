@@ -1,0 +1,9 @@
+/* ==|======================
+   Layout/About section
+   ========================= */
+
+   #about {
+     min-height: 50vh;
+     background: #D3D3D3;
+     @include verticle-align()
+   }

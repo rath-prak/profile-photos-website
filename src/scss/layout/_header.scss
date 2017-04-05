@@ -1,3 +1,11 @@
-/* ==|====================
+/* ==|======================
    Layout/Header
-   ======================= */
+   ========================= */
+
+/* BACKGROUND */
+#header {
+  height: 100vh;
+  background: url('./images/gracie-hero.jpg') center center no-repeat;
+  background-size: cover;
+  @include verticle-align()
+}

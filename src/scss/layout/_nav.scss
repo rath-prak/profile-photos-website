@@ -1,6 +1,55 @@
 /* ==|====================
    Layout/Nav
    ======================= */
+#header {
+  color: #fff;
+}
 
-.l-nav {
+/* MAIN LOGO */
+.main-logo {
+  margin-left: 0.75rem;
+  img {
+    width: 10rem;
+  }
+}
+
+/* BUTTONS */
+#header {
+  .btn {
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    width: 190px;
+  }
+  .btn.solid {
+    background: #fff;
+    color: #000;
+  }
+  .btn.outline {
+    background: none;
+    border: 1px solid #fff;
+    margin-left: 0.75rem;
+  }
+}
+
+/* NAVIGATION */
+.navbar {
+    .navbar-toggler {
+      color: #fff;
+    }
+    .nav-link:hover {
+      color: teal;
+    }
+    a.nav-link {
+      color: #fff;
+      margin-left: 1.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+    a.nav-link.social {
+      margin: auto 0;
+    }
+    a.nav-link.social.instagram {
+      margin-left: 24px;
+    }
 }
