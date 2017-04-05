@@ -7,11 +7,32 @@
   height: 100vh;
   background: url('./images/gracie-hero.jpg') center center no-repeat;
   background-size: cover;
-  @include verticle-align()
+  @include verticle-align();
+}
 
+#header {
+  color: #fff;
   h1 {
-    font-family: $black;
     text-transform: uppercase;
     font-size: 5rem;
+  }
+}
+
+/* BUTTONS */
+#header {
+  .btn {
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    width: 190px;
+  }
+  .btn.solid {
+    background: #fff;
+    color: #000;
+  }
+  .btn.outline {
+    background: none;
+    border: 1px solid #fff;
+    margin-left: 0.75rem;
   }
 }

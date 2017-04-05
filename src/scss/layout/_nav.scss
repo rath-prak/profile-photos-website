@@ -1,9 +1,8 @@
 /* ==|====================
    Layout/Nav
    ======================= */
-#header {
-  color: #fff;
-}
+
+
 
 /* MAIN LOGO */
 .main-logo {
@@ -13,27 +12,9 @@
   }
 }
 
-/* BUTTONS */
-#header {
-  .btn {
-    border-radius: 0;
-    color: #fff;
-    text-transform: uppercase;
-    width: 190px;
-  }
-  .btn.solid {
-    background: #fff;
-    color: #000;
-  }
-  .btn.outline {
-    background: none;
-    border: 1px solid #fff;
-    margin-left: 0.75rem;
-  }
-}
-
 /* NAVIGATION */
 .navbar {
+    background: #000;
     .navbar-toggler {
       color: #fff;
     }
