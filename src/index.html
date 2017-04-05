@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack Starter React boilerplate</title>
+    <title>Welcome to ProfilePhotos</title>
   </head>
   <body>
-      <div id="container">
-        <div class="main-landing">
-          <header role="banner" class="main-header">
-            <nav class="main-navigation">
-              <div class="logo">
-              </div>
-              <ul class="nav-items">
-                <li><a id="linkOne" href="#">about us</a></li>
-                <li><a id="linkTwo" href="#">gallery</a></li>
-                <li><a id="linkThree" href="#">bookings</a></li>
-              </ul>
-            </nav>
-          </header>
-          <div>
-            <h1>Wellington Portrait Photography</h1>
-          </div>
-        </div>
+
+    <nav class="navbar navbar-fixed-top">
+
+      <button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navigation">
+        &#9776;
+      </button>
+
+        <a href="#" class="main-logo img-fulid navbar-brand">
+          <img style="width:200px" src=<%=require("./images/logo_black.png") %> />
+        </a>
+
+      <div class="collapse navbar-toggleable-xs" id="navigation">
+        <ul class="nav navbar-nav float-sm-right">
+          <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">gallery</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">book</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+        </ul>
       </div>
+    </nav>
+
   </body>
 </html>
