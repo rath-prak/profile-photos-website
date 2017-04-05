@@ -8,4 +8,10 @@
   background: url('./images/gracie-hero.jpg') center center no-repeat;
   background-size: cover;
   @include verticle-align()
+
+  h1 {
+    font-family: $black;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
 }

@@ -5,8 +5,10 @@
 // ----------------------
 
 // Fonts
-$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font2: Georgia, serif;
+
+@font-face { font-family: avant_bold; src: url(./fonts/ITCAvantGardeStd-Bold.woff);}
+
+$black: avant_bold, sans-serif;
 
 // = Colors
 // -----------------------------
