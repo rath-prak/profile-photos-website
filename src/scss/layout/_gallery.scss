@@ -1,0 +1,55 @@
+/* ==|======================
+   Layout/Gallery
+   ========================= */
+
+ #gallery {
+    padding: 7rem 0;
+
+    .portfolio-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      // .portfolio-item {
+      //   height: 528px;
+      // }
+      //
+      // .one {
+      //   background: teal;
+      //   flex: 3;
+      // }
+      // .two {
+      //   background: yellow;
+      //   flex: 1;
+      // }
+      // .three {
+      //   background: pink;
+      //   flex: 2;
+      // }
+
+      .one {
+        img {
+          height: 528px;
+        }
+      }
+
+      .two {
+        display: flex;
+        flex-direction: column;
+        height: 528px;
+        .two-a {
+          margin-bottom: 7px;
+        }
+        .two-b {
+          margin-top: 5px;
+        }
+      }
+
+      .three {
+        img {
+          height: 528px;
+        }
+      }
+    }
+
+ }
