@@ -2,54 +2,28 @@
    Layout/Gallery
    ========================= */
 
- #gallery {
-    padding: 7rem 0;
+#gallery {
+  padding: 7rem 0;
+}
+.grid-item {
+ float: left;
+ width: 460px;
+ border: 5px solid #fff;
+ img {
+   width: 100%;
+   display: block;
+   height: auto
+   }
+}
+.dave-three {
+  img {
+    height: 245px;
+  }
+}
 
-    .portfolio-container{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
 
-      // .portfolio-item {
-      //   height: 528px;
-      // }
-      //
-      // .one {
-      //   background: teal;
-      //   flex: 3;
-      // }
-      // .two {
-      //   background: yellow;
-      //   flex: 1;
-      // }
-      // .three {
-      //   background: pink;
-      //   flex: 2;
-      // }
-
-      .one {
-        img {
-          height: 528px;
-        }
-      }
-
-      .two {
-        display: flex;
-        flex-direction: column;
-        height: 528px;
-        .two-a {
-          margin-bottom: 7px;
-        }
-        .two-b {
-          margin-top: 5px;
-        }
-      }
-
-      .three {
-        img {
-          height: 528px;
-        }
-      }
-    }
-
- }
+@media ( min-width: 1200px ) {
+  .grid-item {
+   width: 370px;
+  }
+}

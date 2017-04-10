@@ -29,6 +29,8 @@
     "imports-loader": "^0.7.1",
     "install": "^0.8.8",
     "jquery": "^3.2.1",
+    "jquery-bridget": "^2.0.1",
+    "masonry-layout": "^4.1.1",
     "node-sass": "^4.5.2",
     "npm": "^4.4.4",
     "path": "^0.12.7",
