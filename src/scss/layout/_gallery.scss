@@ -11,16 +11,9 @@
  border: 5px solid #fff;
  img {
    width: 100%;
-   display: block;
-   height: auto
+   height: auto;
    }
 }
-.dave-three {
-  img {
-    height: 245px;
-  }
-}
-
 
 @media ( min-width: 1200px ) {
   .grid-item {
