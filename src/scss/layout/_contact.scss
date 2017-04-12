@@ -4,11 +4,18 @@
 
 #contact {
  padding: 7rem 0;
- background: #00FFD2;
-}
-
-#name,
-#email {
-  width: 100%;
-  height: 3rem;
+ background: $primary;
+ color: $reverse;
+ h6 {
+   text-transform: none;
+ }
+ span {
+   font-weight: bold;
+ }
+ .footer-logo {
+   margin-bottom: 5rem;
+   img {
+     width: 50%;
+   }
+ }
 }
