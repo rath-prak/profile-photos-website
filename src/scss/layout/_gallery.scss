@@ -12,18 +12,12 @@
  img {
    width: 100%;
    display: block;
-   height: auto
+   height: auto;
    }
 }
-.dave-three {
-  img {
-    height: 245px;  
-  }
-}
-
 
 @media ( min-width: 1200px ) {
   .grid-item {
-   width: 370px;
+   width: 277px;
   }
 }
