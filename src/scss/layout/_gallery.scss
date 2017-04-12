@@ -11,12 +11,13 @@
  border: 5px solid #fff;
  img {
    width: 100%;
+   display: block;
    height: auto;
    }
 }
 
 @media ( min-width: 1200px ) {
   .grid-item {
-   width: 370px;
+   width: 277px;
   }
 }

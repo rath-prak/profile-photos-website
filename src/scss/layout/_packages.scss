@@ -4,11 +4,9 @@
 #packages {
   padding: 7rem 0;
   min-height: 50vh;
-  background: #D3D3D3;
+  background: $secondary;
   @include verticle-align();
-  h2 {
-    text-transform: uppercase;
-  }
+
   h6 {
     margin-bottom: 4rem;
   }
@@ -16,10 +14,35 @@
   .card {
     text-align: center;
     border-radius: 0;
+    margin-bottom: 2rem;
+    strong {
+      font-size: 1.8rem;
+    }
   }
   .card-header {
     border-radius: 0;
-    background: #6e6e6e;
     color: #fff;
+  }
+  .basic {
+    background: #6e6e6e;
+  }
+  .basic-2 {
+    background: #808080;
+  }
+  .portrait {
+    background: #333333;
+  }
+
+  .group-sessions {
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px){
+  #packages {
+    .card {
+      margin-bottom: 0px; 
+    }
   }
 }
