@@ -2,35 +2,123 @@
    Layout/Nav
    ======================= */
 
+   /**
+    CHATBOT NAVIGATION
+    ---------------------------------*/
+   .main-nav {
+     position: absolute;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+    //  background: pink;
 
+     .navbar-container {
+       margin-right: 0px;
+       background: green;
+       padding-bottom: 1px;
+     }
 
-/* MAIN LOGO */
-.main-logo {
-  margin-left: 0.75rem;
-  img {
-    width: 10rem;
-  }
+     .main-logo {
+       margin: 1.5rem;
+       img {
+         margin-top: 15px;
+         width: 150px;
+       }
+     }
+
+     .navbar-list-items {
+       display: none;
+       list-style: none;
+       li {
+         margin-bottom: 10px;
+
+       }
+       li:nth-of-type(5) {
+         padding-bottom: 10px;
+       }
+       li a{
+         text-decoration: none;
+         color: $reverse;
+         font-size: 1rem;
+       }
+       li a:hover {
+         color: blue;
+       }
+     }
+     .navbar-list-items.active {
+         display: block;
+     }
+     .toggle {
+       position: absolute;
+       right: 20px;
+       top: 20px;
+       color: $reverse;
+       font-size: 18px;
+     }
+
+   }
+
+   @media screen and (min-width: 750px) {
+
+       //navigation menu
+     .main-nav {
+       .main-logo {
+         padding-top: 0px;
+         img {
+           margin-top: 0px;
+         }
+       }
+
+       .navbar-container {
+         justify-content: space-between;
+         margin-right: 1.5rem;
+         display: flex;
+         align-items: center;
+         background: none;
+       }
+       .navbar-list-items {
+         display: flex;
+         background: none;
+
+         li {
+          //  margin-left: 0.5rem;
+         }
+         li a {
+           font-size: 1.25rem;
+         }
+       }
+       .toggle {
+         display: none;
+       }
+     }
 }
-
-/* NAVIGATION */
-.navbar {
-    background: #000;
-    .navbar-toggler {
-      color: #fff;
-    }
-    .nav-link:hover {
-      color: teal;
-    }
-    a.nav-link {
-      color: #fff;
-      margin-left: 1.5rem;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-    }
-    a.nav-link.social {
-      margin: auto 0;
-    }
-    a.nav-link.social.instagram {
-      margin-left: 24px;
-    }
-}
+// /* MAIN LOGO */
+// .main-logo {
+//   margin-left: 0.75rem;
+//   img {
+//     width: 10rem;
+//   }
+// }
+//
+// /* NAVIGATION */
+// .navbar {
+//     background: #000;
+//     .navbar-toggler {
+//       color: #fff;
+//     }
+//     .nav-link:hover {
+//       color: teal;
+//     }
+//     a.nav-link {
+//       color: #fff;
+//       margin-left: 1.5rem;
+//       font-size: 0.85rem;
+//       text-transform: uppercase;
+//     }
+//     a.nav-link.social {
+//       margin: auto 0;
+//     }
+//     a.nav-link.social.instagram {
+//       margin-left: 24px;
+//     }
+// }
