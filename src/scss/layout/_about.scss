@@ -5,7 +5,9 @@
    #about {
      min-height: 50vh;
      background: #D3D3D3;
+     text-align: center;;
      @include verticle-align()
+     padding: $padding;
 
      h1 {
        text-transform: uppercase;

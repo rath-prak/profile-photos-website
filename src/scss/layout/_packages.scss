@@ -6,19 +6,24 @@
   min-height: 50vh;
   background: $secondary;
   @include verticle-align();
-
-  h6 {
-    margin-bottom: 4rem;
-  }
+  text-align: center;
 
   .card {
-    text-align: center;
     border-radius: 0;
     margin-bottom: 2rem;
+    li.list-group-item:last-of-type {
+      font-family: $black;
+    }
     strong {
       font-size: 1.8rem;
+      }
     }
+
+  .first-gallery-row {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
+
   .card-header {
     border-radius: 0;
     color: #fff;
@@ -42,7 +47,7 @@
 @media (min-width: 768px){
   #packages {
     .card {
-      margin-bottom: 0px; 
+      margin-bottom: 0px;
     }
   }
 }
