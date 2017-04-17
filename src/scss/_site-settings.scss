@@ -7,8 +7,16 @@
 // Fonts
 
 @font-face { font-family: avant_bold; src: url(./fonts/ITCAvantGardeStd-Bold.woff);}
+@font-face { font-family: proxi_bold; src: url(./fonts/proximanova-bold-webfont.woff);}
+@font-face { font-family: proxi_medium; src: url(./fonts/proximanova-regular-webfont.woff);}
+@font-face { font-family: proxi_light; src: url(./fonts/proximanova-light-webfont.woff);}
 
 $black: avant_bold, sans-serif;
+$bold: proxi_bold, sans-serif;
+$medium: proxi_medium, sans-serif;
+$light: proxi_light, sans-serif;
+
+
 
 // = Colors
 // -----------------------------
