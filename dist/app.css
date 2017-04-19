@@ -1,0 +1,263 @@
+@font-face {
+  font-family: avant_bold;
+  src: url(fonts/ITCAvantGardeStd-Bold.woff);
+}
+
+@font-face {
+  font-family: proxi_bold;
+  src: url(fonts/proximanova-bold-webfont.woff);
+}
+
+@font-face {
+  font-family: proxi_medium;
+  src: url(fonts/proximanova-regular-webfont.woff);
+}
+
+@font-face {
+  font-family: proxi_light;
+  src: url(fonts/proximanova-light-webfont.woff);
+}
+
+body {
+  font-family: proxi_medium,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: avant_bold,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: uppercase;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  z-index: 100;
+}
+
+.main-nav .navbar-container {
+  background: #000;
+}
+
+.main-nav .main-logo {
+  margin-left: 20px;
+  line-height: 65px;
+}
+
+.main-nav .main-logo img {
+  width: 150px;
+}
+
+.main-nav .navbar-list-items {
+  padding-left: 0;
+  display: none;
+  list-style: none;
+}
+
+.main-nav .navbar-list-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: avant_bold,sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.main-nav .navbar-list-items li a:hover {
+  text-decoration: underline;
+}
+
+.main-nav .toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (min-width:750px) {
+  .main-nav .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav .main-logo img {
+    margin-left: 20px;
+  }
+
+  .main-nav .navbar-list-items {
+    margin-right: 20px;
+    display: flex;
+    background: none;
+    margin-top: 20px;
+  }
+
+  .main-nav .navbar-list-items li a {
+    font-size: .85rem;
+  }
+
+  .main-nav .toggle {
+    display: none;
+  }
+}
+
+#header {
+  height: 100vh;
+  background: url(images/gracie-hero.jpg) 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+#header h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+#header p {
+  font-size: 1.25rem;
+}
+
+#header .btn {
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  width: 140px;
+  cursor: pointer;
+}
+
+#header .btn.solid {
+  background: #fff;
+  color: #000;
+  margin-right: .75rem;
+}
+
+#header .btn.outline {
+  background: none;
+  border: 1px solid #fff;
+}
+
+@media screen and (min-width:750px) {
+  #header h1 {
+    font-size: 70px;
+  }
+}
+
+#about {
+  min-height: 50vh;
+  background: #d3d3d3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+#about h1 {
+  text-transform: uppercase;
+}
+
+#gallery {
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.grid-item {
+  float: left;
+  width: 460px;
+  border: 5px solid #fff;
+}
+
+.grid-item img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+@media (min-width:1200px) {
+  .grid-item {
+    width: 277px;
+  }
+}
+
+#packages {
+  padding: 7rem 0;
+  min-height: 50vh;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#packages .card {
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+
+#packages .card li.list-group-item:last-of-type {
+  font-family: avant_bold,sans-serif;
+}
+
+#packages .card strong {
+  font-size: 1.8rem;
+}
+
+#packages .first-gallery-row {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#packages .card-header {
+  border-radius: 0;
+  color: #fff;
+}
+
+#packages .basic {
+  background: #6e6e6e;
+}
+
+#packages .basic-2 {
+  background: gray;
+}
+
+#packages .portrait {
+  background: #333;
+}
+
+#packages .group-sessions {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  #packages .card {
+    margin-bottom: 0;
+  }
+}
+
+#contact {
+  padding: 7rem 0;
+  background: #000;
+  color: #fff;
+}
+
+#contact h6 {
+  text-transform: none;
+}
+
+#contact span {
+  font-weight: 700;
+}
+
+#contact .footer-logo {
+  margin-bottom: 5rem;
+}
+
+#contact .footer-logo img {
+  width: 50%;
+}
