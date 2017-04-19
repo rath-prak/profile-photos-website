@@ -1,4 +1,6 @@
 import css from './app.scss';
+import navToggle from './js/nav-toggle'
+import navScrollTo from './js/navScrollTo'
 
 
 // var $ = require('jquery');
@@ -13,9 +15,5 @@ $('.grid').masonry({
 });
 
 
-const $toggle = $('.toggle');
-const $navbarListItems = $('.navbar-list-items');
-
-$toggle.on('click', () => {
-  $navbarListItems.toggleClass("active");
-});
+navToggle();
+navScrollTo();
